@@ -4,10 +4,10 @@
 - [About](#About)
 - [Examples of Use Cases](#Examples-of-Use-Cases)
 - [Installation](#Installation)
-- [Global News Kristina](#Global-News-Kristina)
-- [Twitter Sadaf](#Twitter-Sadaf)
-- [Facebook Yifei](#Facebook-Yifei)
-- [Reddit Yifei](#Reddit-Yifei)
+- [Global News Kristina](#Global-News)
+- [Twitter Sadaf](#Twitter)
+- [Facebook Yifei](#Facebook)
+- [Reddit Yifei](#Reddit)
 - [Integration](#Integration)
 
 
@@ -54,7 +54,7 @@ The repository contains large files, please use following command to pull
 ```
 git-lfs pull
 ```
-## Global News Kristina
+## Global News
   - User is prompted to input the name and category of the stock they want to purchase
   - An API gets the most recent news articles related to this stock
   - A classifier was trained with positive tweets and negative tweets to identify positive and negative words
@@ -85,7 +85,7 @@ git-lfs pull
 ### Tools
   - Used NewsAPI https://newsapi.org/ because the free version allows 100 requests per day
 
-## Twitter Sadaf
+## Twitter
   - User is prompted to input the name of the stock they want to purchase
   - An API gets the most recent 1000 tweets related to this stock
   - Used VADER (Valence Aware Dictionary and Sentiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media
@@ -115,14 +115,14 @@ git-lfs pull
 ### Tools
   - Used tweepy API wrapper https://docs.tweepy.org/en/latest/api.html
   
-## Facebook Yifei
+## Facebook
   - Used a facebook scraper to collect posts data from public stock related groups
   - Combining Sklearn and NLTK classifieres to imporve the accuracy
   - Classifieres were trained with short movie reviews to identify positive and negative words
   - The trained classifiers are saved as ['\*.pickle'] files under [yifei_facebook/algo_pickle] folder
   - The data collected from facebook are parsed into cleaned tokens and performed senmantic analysis
 
-## Reddit Yifei
+## Reddit
   - Used praw API wrapper https://praw.readthedocs.io/en/latest/ to get the newest comment in the subreddit which is related to the input stock
   - Combining Sklearn and NLTK classifieres to imporve the accuracy
   - Classifieres were trained with short movie reviews to identify positive and negative words
