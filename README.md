@@ -4,10 +4,10 @@
 - [About](#About)
 - [Examples of Use Cases](#Examples-of-Use-Cases)
 - [Installation](#Installation)
-- [Global News Kristina](#Global-News)
-- [Twitter Sadaf](#Twitter)
-- [Facebook Yifei](#Facebook)
-- [Reddit Yifei](#Reddit)
+- [Global News](#Global-News)
+- [Twitter](#Twitter)
+- [Facebook ](#Facebook)
+- [Reddit ](#Reddit)
 - [Integration](#Integration)
 
 
